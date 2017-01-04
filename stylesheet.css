@@ -2,7 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: arial, serif;
-  background-image: url(http://s1.picswalls.com/wallpapers/2016/06/10/4k-background_065217183_309.jpg);
+  background-image: url(http://axeetech.com/wp-content/uploads/2014/09/4k-wallpaper.jpg);
 }
 .nav {
   background-color: #595959;
@@ -14,7 +14,7 @@ body {
 .nav > li {
   display: inline-block;
   padding-right: 15px;
-  font-size: 12px;
+  font-size: 14px;
   padding: 0 15px 0 15px;
 }
 .nav > li > a{
@@ -26,11 +26,11 @@ body {
 }
 .logo {
   color: #000;
-  font-family: Arial;
+  font-family: rockwell;
   float: left;
   padding-left: 20px;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 20
   padding: 0 20px 0 20px;
 }
 .logo > a {
@@ -39,7 +39,7 @@ body {
 }
 .text-about{
   color: #000;
-  font-family: "arial", serif;
+  font-family: "museo slab";
   font-size: 24px;
   padding: 25px 50px 50px 50px;
   font-weight: bold;
@@ -56,16 +56,41 @@ body {
   border-radius: 50%;
   border-width: 5px;
   border-style: solid;
-  width: 400px;
+  width: 275px;
   text-align: right;
   margin-top: 40px;
   margin-left: 100px;
 }
-.banner{
-  width: 100%;
-  display: block;
+.portfolio-icon{
+    background-color: #ddd;
+    opacity: .7;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height:300px;
+    text-align: center;
+    padding-top: 30px;
 }
-.banner-image{
-  width: 100%;
-  display: block;
+.portfolio-icon >a{
+    text-decoration: none;
+    color: #000;
+}
+.small-image{
+    width: 100%;
+}
+.align{
+    align-items: center;
+}
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top:20px;
+    opacity: .5;
+
+}
+.foot{
+    background-color: #595959;
+    height: 45px;
+    width: 100%;
 }
