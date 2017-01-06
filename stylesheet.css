@@ -1,10 +1,12 @@
 body {
   margin: 0px;
   padding: 0px;
-  font-family: arial, serif;
-  background-image: url(/img/background.jpg);
-  background-size: contain;
-background-position: center;
+  font-family: "lato", serif;
+  background-image: url(img/wallpaper2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
   background-repeat: no-repeat;
 }
 .nav {
@@ -13,6 +15,7 @@ background-position: center;
   list-style: none;
   text-align: right;
   padding: 20px 0 0 0;
+    font-size: 20px;
 }
 .nav > li {
   display: inline-block;
@@ -28,13 +31,10 @@ background-position: center;
   color: #000;
 }
 .logo {
-  color: #000;
-  font-family: rockwell;
   float: left;
-  padding-left: 20px;
-  font-weight: bold;
-  font-size: 20
-  padding: 0 20px 0 20px;
+  width: 200px;
+    margin-left: 30px;
+    margin-top: -20px;
 }
 .logo > a {
   color: #fff;
@@ -50,9 +50,10 @@ background-position: center;
     margin-top: 60px;
 }
 .about{
-background-image: url(/img/about-background.jpg)
-  background-size: contain;
+background-image: url(#);
+background-size: cover;
 background-position: center;
+width: 100%;
 }
  .text-well{
     opacity: .5;
@@ -89,10 +90,10 @@ background-position: center;
     align-items: center;
 }
 .portfolio{
-background-image: url(/img/background.jpg);
-  background-size: contain;
-background-position: center
-  background-repeat: no-repeat;
+background-image: url(#);
+background-position: center;
+background-size: contain;
+    width: 100%;
 }
 .box {
     width: 50px;
