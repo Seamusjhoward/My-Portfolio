@@ -10,8 +10,8 @@ body {
   background-repeat: no-repeat;
 }
 .nav {
-  background-color: #595959;
-  color: #ffffff;
+  background: url(/img/logo-bacl.png);
+  color: #000;
   list-style: none;
   text-align: right;
   padding: 20px 0 0 0;
@@ -22,10 +22,11 @@ body {
   padding-right: 15px;
   font-size: 14px;
   padding: 0 15px 0 15px;
+  color: #000;
 }
 .nav > li > a{
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 .nav > li > a:hover {
   color: #000;
@@ -108,4 +109,14 @@ background-size: contain;
     background-color: #595959;
     height: 45px;
     width: 100%;
+}
+.github-link{
+    width: 40px;
+    margin-left: 50px;
+    padding-bottom: -5px;
+}
+.facebook-link{
+    width: 40px;
+    margin-left: 15px;
+    padding-bottom: -5px;
 }
